@@ -8,16 +8,15 @@ class Home_page extends StatelessWidget {
     var days = 30;
     var temp = 40.5;
     return Scaffold(
-      appBar:AppBar(
+      appBar: AppBar(
         title: Text("Catelog App"),
-        backgroundColor: Color.fromARGB(255, 1, 224, 1),
       ),
-        body: Center(
-            child: Container(
-      child: Text("today Temperatur is $temp degree "),
-    ),
-    ),
-    drawer: Drawer(),
+      body: Center(
+        child: Container(
+          child: Text("today Temperatur is $temp degree "),
+        ),
+      ),
+      drawer: Drawer(),
     );
   }
 }
