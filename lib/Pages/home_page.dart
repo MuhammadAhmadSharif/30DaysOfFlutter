@@ -5,7 +5,6 @@ class Home_page extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var days = 30;
     var temp = 40.5;
     return Scaffold(
       appBar: AppBar(
